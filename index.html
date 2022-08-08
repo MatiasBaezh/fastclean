@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./media/favicon.png">
+    <title>Super Fast Clean ✨</title>
+</head>
+<body>
+     <!-- Logo-->
+    <header>
+           <a href="index.html"><img id="logo-img" src="./media/Logo.png "  alt="Logo empresa Super fast clean"></a>
+    </header>   
+    <!-- Menú de navegación,  "Servicios" y "formulario" en index como forma de mezclar pagina principal con landing page-->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a> </li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="./paginas/agenda.html">Agenda Online</a></li>
+            <li><a href="./paginas/testimonios.html">Testimonios</a></li>
+            <li><a href="./paginas/faq.html">Preguntas frecuentes</a></li>
+            <li><a href="#formulario">Contacto</a></li>
+        </ul>      
+    </nav> 
+    <main>
+            <section class="banner">
+            <img src="./media/banner.jpg" alt="Fotografia de personas haciendo aseo">
+                <aside><p>Para cada necesidad de limpieza, aseo y desinfección, Super Fast Clean tiene una solución. Aseo a domicilio para hogares, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis natus esse adipisci labore ducimus molestiae fugit, dolorum modi maiores praesentium nesciunt quisquam optio iusto quod, eius quia animi nam excepturi? Quod reiciendis eveniet quaerat perferendis nostrum eligendi totam libero, quibusdam voluptatibus tempore, rem, quae dolorum aliquid. Velit officia expedita maxime porro dicta, quo exercitationem natus sint alias ea tempora modi vero, similique laboriosam accusamus incidunt quis at veniam cum quibusdam vitae pariatur quasi consequatur. Quos nobis suscipit alias nulla inventore.</p>
+                </aside>
+            </section>
+            <section class="servicios" id="servicios">
+            <h2>NUESTROS SERVICIOS</h2>    
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam suscipit enim aperiam quaerat! Sequi, obcaecati eligendi! Debitis rem dolor eligendi optio iusto. </p>
+
+                <ul class="servicios">
+                    <li>
+                    <figure><a href="./paginas/servicio1.html" style="text-decoration:none"><img src="./media/s1.jpg" alt="Persona con guantes limpiando el espejo de una casa"></a><figcaption>Limpieza de hogares</figcaption></figure>
+                    </li>
+                    <li>
+                    <figure><a href="./paginas/servicio2.html" style="text-decoration:none"><img src="./media/s2.jpg" alt="Persona limpiando el piso de una oficina"></a><figcaption>Limpieza de alfombras</figcaption></figure>
+                    </li>
+                    <li>
+                    <figure>
+                    <a href="./paginas/servicio3.html" style="text-decoration:none"><img src="./media/s3.jpg" alt="Persona limpiando el piso de una oficina"></a><figcaption>Limpieza de alfombras</figcaption></figure>
+                    </li>      
+                </ul>     
+            </section>     
+        <!-- Sección de Trust icons para producir efecto de confianza en el usuario, solo descripción sin enlace, estilo con class menu y ventajas-->
+            <section class="ventajas">
+            <h2>NUESTRAS VENTAJAS</h2>
+                <ul class="menu">
+                    <li>
+                        <img src="./media/agenda.png" width="48px" alt="icono de agenda">
+                            <p>Agenda en Linea</p></li>
+                    <li> <img src="./media/creditcard.png" width="48px" alt="icono de tarjeta de credito">
+                        <p>Pago con tarjeta de credito</p></li>
+                    <li> <img src="./media/certificate.png" width="48px" alt="icono de certicado">
+                        <p>Garantia de satisfacción</p></li>
+                    <li><img src="./media/candado.png" width="48px" alt="icono de candado">
+                        <p>Datos Seguros</p></li>
+                    <li><img src="./media/covid.png" width="48px" alt="icono de virus">
+                        <p>Personal libre de COVID-19</p></li>
+                </ul>
+            </section>
+            <br>
+        <!-- Formulario de contacto enlazado al apartado de "Contacto" del menú de navegación,insertado en el index para disminuir los click que tiene que hacer el usuario para general un lead -->
+            <section id="formulario" class="formulario">
+            <form action="" id="">
+                <fieldset class="formulario">
+                    <legend><h3>Contacto</h3></legend>
+                    <div>
+                    <label for="nombre"> Nombre y Apellido*</label>
+                    <input class="cuadro" type="text" name="Nombre" placeholder="Matias Baez" required>     
+                    </div>
+                    <br>
+                    <div>
+                        <label for="telefono"> N° Telefónico</label>
+                        <input class="cuadro" type="text" name="Nombre" placeholder="+5693103393" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="correo Electronico"> Correo Electrónico *</label>
+                        <input class="cuadro" type="email" name="Correo" placeholder="Jorgito@gmail.com" id="" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="consulta"></label>
+                        <textarea id="cuadro-formulario" name="consulta"  cols="30" rows="10"> Quisiera consultar sobre...</textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input id="botonsubmit" type="submit" value="ENVIAR">
+                    </div>
+            </fieldset>  
+            </form>
+            </section>
+
+   </main>
+    <!-- Sección de servicios, cada servicio tiene su propia pagina, estilo class "servicios" y ID para "servicios" para linkear al nav-->
+    
+    <!-- Footer con redes links a redes sociales y enlace a google maps, con la ubicación fisica de la empresa-->
+    <footer>
+        <h3>Redes Sociales</h3>
+            <ul class="menu">
+                <li>
+                    <a href="https://www.facebook.com/superfastclean" style="text-decoration:none" target="_blank"><img src="./media/facebook.png" width="32px"  alt="icono de facebook"> @Superfastclean</a>  
+                </li>
+                    <br>
+                <li>
+                    <a href="https://www.instagram.com/superfastclean" style="text-decoration:none" target="_blank"><img src="./media/Instagram.png" width="32px" alt="icono de instagram"> @Superfastclean</a>
+                </li>
+                    <br>
+                <li>
+                    <a href="https://twitter.com/superfastclean" style="text-decoration:none" target="_blank"><img src="./media/twitter.png" width="32px" alt="icono de twitter"> @Superfastclean</a>
+                </li>
+            </ul>
+        <h3>Nuestra ubicación</h3>    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.79224237929!2d-71.52623878427477!3d-33.035603583728054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de89efd96f47%3A0x323b4254fd6bb89e!2sMcDonalds!5e0!3m2!1ses-419!2scl!4v1657503505922!5m2!1ses-419!2scl" width="330" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <P>Sitio creado para desafío Coderhouse®</P>
+    </footer>
+</body>
+</html>
