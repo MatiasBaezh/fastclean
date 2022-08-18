@@ -1,0 +1,60 @@
+@media only screen and (max-width: 991px) {
+    .text{
+    color: #f47373;
+    font-size: 110%;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding: 10px;   
+    }
+    .carousel-caption {
+        padding-bottom: 370px;
+    }
+    .carousel-caption p {
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 1%;
+    }
+    .img-area img {
+        width: 100%;
+    }
+    //Toggle del navbar.
+    .navbar-brand{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .carousel-caption{
+        font-size: 85%;
+    }
+    .ventajas{
+        flex-direction: column;
+        border:2px solid $cyan;
+        border-radius: 3%;
+    }
+    // responsive agenda hecha en google calendar.
+    .calendario{
+        padding: 10%;
+    }
+
+}
+@media only screen and (max-width: 470px) {
+    .carousel-caption{
+        font-size: 75%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    h2,h3{
+        padding: 10% 5%;
+    }
+    .carousel-caption{
+        font-size: 50%;           
+    }
+    .carousel-caption p{
+        font-size: 120%;
+    }
+    .calendario{
+        padding: 3% 20%;
+}
+}

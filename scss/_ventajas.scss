@@ -1,0 +1,27 @@
+
+.ventajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5%;
+    font-size: 110%;    
+}
+/* Clase listas (reutilizable */
+.menu{ 
+    list-style: none;
+    text-align: center;    
+}
+.menu img{
+padding-bottom: 2%;    
+}
+.redes li a,a:hover,a:before{    
+    font-weight: 400;
+    color: $rojo;  
+}
+.redes{ 
+    a,a:hover,a:before{
+    font-weight: 400;
+    color: #F47373;  
+    }   
+}
