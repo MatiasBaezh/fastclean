@@ -5,13 +5,10 @@
     justify-content: space-around;
     text-align: center;
     padding: 5%;
-    font-size: 110%;    
+    font-size: 105%;
+    @extend .menu              
 }
-/* Clase listas (reutilizable */
-.menu{ 
-    list-style: none;
-    text-align: center;    
-}
+
 .menu img{
 padding-bottom: 2%;    
 }

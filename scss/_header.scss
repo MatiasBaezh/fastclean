@@ -3,7 +3,6 @@ header{
         font-weight: 400;
         color: rgb(255, 255, 255);
         text-decoration: none;
-
     }
     .navbar-nav {
         a {
@@ -12,7 +11,7 @@ header{
         font-weight: 500; } 
     }
     .navbar-light .navbar-brand {
-        color: rgb(244, 115, 115);
+        color: #f47373;
         font-size: 110%;
         text-transform: uppercase;
         font-weight: bold;
@@ -37,19 +36,20 @@ header{
         background: #fff;     
     }
     .carousel-caption {
-        bottom: 10%;
+        bottom: 5%;
         z-index: 2;
     }
     .carousel-caption h5 {
-        font-size: 300%;
+        font-size: 240%;
         text-transform: uppercase;
-        letter-spacing: 1.5px;	
+        letter-spacing: 1.9px;	
     }
     .carousel-caption p {
-        width: 50%;
+        width: 70%;
         margin: auto;
         font-size: 110%;
-        line-height: 1.9;
+        line-height: 1.5;
+        padding: 1%;
     }
     .carousel-inner:before {
         content: '';

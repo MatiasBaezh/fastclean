@@ -1,5 +1,6 @@
 .redes{
     margin-left: -40px;
+    @extend .menu
 }
 iframe{
 width: 100%;
@@ -10,6 +11,6 @@ padding: 0% 5% 0% 5%;
 }
 footer li a:hover{
    background-color: #F9F7F3;
-   color: #ff5757;
+   color: #f47373;
    border-radius: 5%;
    font-size: 120%; }
