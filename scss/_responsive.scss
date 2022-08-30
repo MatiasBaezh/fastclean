@@ -13,6 +13,7 @@ $breakpoints: (
     }
 
 }
+    
 
 // Breakpoints para darle responsive al navbar, banner principal y agenda//
 //Ancho 980px/
@@ -26,14 +27,15 @@ $breakpoints: (
         letter-spacing: 0px;
         padding: 8px;
     }
-
-    .card {
+    
+    .card{
         margin-bottom: 3%;
-
         p {
             padding: 0%;
         }
+          
     }
+
 
     .img-area img {
         width: 100%;
@@ -109,7 +111,12 @@ $breakpoints: (
     }
 
     .carousel-caption p {
-        display: none;
+        font-size: 60%;
     }
 
 }
+@media screen and (max-height: 740px) {
+    .carousel-caption {
+      font-size: 70%; }
+    .carousel-caption p {
+      font-size: 60%; } }

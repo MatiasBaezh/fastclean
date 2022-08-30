@@ -13,6 +13,9 @@ body {
     color: #ffffff;
     text-decoration: none; }
 
+.fixedbar {
+  padding-bottom: 5%; }
+
 header .navbar {
   font-weight: 400;
   color: white;
@@ -73,6 +76,9 @@ header .carousel-inner:before {
   background: #867d7db3;
   z-index: 1; }
 
+.fixedbar {
+  padding-bottom: 5%; }
+
 main {
   font-size: 110%;
   text-align: justify; }
@@ -87,7 +93,7 @@ main {
 Section #servicios .img-area img {
   width: 100%; }
 
-Section .card-text {
+.card-text {
   text-align: justify; }
 
 .ventajas {
@@ -186,7 +192,13 @@ footer li a:hover {
   .carousel-caption {
     font-size: 100%; }
   .carousel-caption p {
-    display: none; } }
+    font-size: 60%; } }
+
+@media screen and (max-height: 740px) {
+  .carousel-caption {
+    font-size: 70%; }
+  .carousel-caption p {
+    font-size: 60%; } }
 
 li {
   animation-duration: 1.5s;

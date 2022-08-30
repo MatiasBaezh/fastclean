@@ -17,9 +17,10 @@
 </head>
 
 <body>
-  <!-- HEADER -->
-  <header>
-    <!-- Navbar -->
+ <!-- HEADER -->
+ <header>
+  <!-- Navbar -->
+  <div class="row fixedbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <div class="container">
@@ -34,15 +35,15 @@
             </a>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./paginas/agenda.html">Agenda</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html#servicios">Servicios</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html#servicios" data-toggle="collapse" data-target=".navbar-collapse.show">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./paginas/faq.html">Faq</a>
@@ -56,6 +57,7 @@
           </ul>
         </div>
       </div>
+    </div>
     </nav>
     <!-- Carrousel-->
     <div class="container carousel">
@@ -83,17 +85,17 @@
     </div>
   </main>
   <!-- Nuestros servicios 3 cards-->
-  <section id="servicios">
+  <section>
     <h2>Nuestros servicios</h2>
     <div class="container">
-      <div class="row">
+      <div class="row" id="servicios">
         <!-- Card N°1, servicio 1 -->
-        <div class="col-12 col-lg-4 d-flex align-items-center">
+        <div class="col-12 col-lg-4">
           <div class="card" style="width: auto;">
             <img src="./media/s1.jpg" class="card-img-top" alt="Persona limpiando casa" title="Servicio de limpieza de hogares">
             <div class="card-body">
               <h5 class="card-title">Limpieza de hogares</h5>
-              <p class="card-text">Somos especialistas en Limpieza profunda. Nos enfocamos en atacar aquellos lugares difíciles de limpiar, logrando una mantención minuciosa de alto estándar. ¡Descubre lo que podemos hacer por tu hogar!</p>
+              <p class="card-text"> Servicios de limpieza profunda de alto estandar y mantenciones periódica.</p>
               <a href="./paginas/servicio1.html" class="btn btn-danger">Ver más...</a>
             </div>
           </div>
@@ -104,7 +106,7 @@
             <img src="./media/s2.jpg" class="card-img-top" alt="Persona limpiando oficina" title="Servicio de limpieza de oficinas">
             <div class="card-body">
               <h5 class="card-title">Limpieza de oficinas</h5>
-              <p class="card-text">Proveemos personal de limpieza experimentado, completamente capacitado para las labores del aseo y limpieza de oficinas en forma periódica, con magnificas actitudes de trabajo en equipo y disposición.</p>
+              <p class="card-text"> Ofrecemos servicios de  limpieza de oficinas en forma periódica con personal calificado. </p>
               <a href="./paginas/servicio2.html" class="btn btn-danger">Ver más...</a>
             </div>
           </div>
@@ -113,9 +115,9 @@
         <div class="col-12 col-lg-4">
           <div class="card" style="width: auto;">
             <img src="./media/s3.jpg" class="card-img-top" alt="Persona lavando alfombra" title="Servicio de limpieza de alfombras">
-            <div class="card-body">
+            <div class="card-body ">
               <h5 class="card-title">Lavado de alfombras</h5>
-              <p class="card-text">Realizamos un lavaod profundo, nuestro principal objetivo es eliminar ácaros, bacterias, manchas, suciedad acumulada y malos olores,  utilizando productos de aseo biodegradables y amigables con el medio ambiente.</p>
+              <p class="card-text">Ofrecemos lavado de alfombras muro a muro y dimensionadas.</p>
               <a href="./paginas/servicio3.html" class="btn btn-danger">Ver más...</a>
             </div>
           </div>
@@ -211,18 +213,18 @@
           <h3>Redes Sociales</h3>
           <ul class="redes">
             <li>
-              <a href="https://www.facebook.com/superfastclean" style="text-decoration:none" target="_blank"><img
-                  src="./media/facebook.png" width="32px" alt="icono de facebook"> @Superfastclean</a>
+              <a href="https://www.facebook.com/Fastclean" style="text-decoration:none" target="_blank"><img
+                  src="./media/facebook.png" width="32px" alt="icono de facebook"> @Fastclean</a>
             </li>
             <br>
             <li>
-              <a href="https://www.instagram.com/superfastclean" style="text-decoration:none" target="_blank"><img
-                  src="./media/Instagram.png" width="32px" alt="icono de instagram"> @Superfastclean</a>
+              <a href="https://www.instagram.com/Fastclean" style="text-decoration:none" target="_blank"><img
+                  src="./media/Instagram.png" width="32px" alt="icono de instagram"> @Fastclean</a>
             </li>
             <br>
             <li>
-              <a href="https://twitter.com/superfastclean" style="text-decoration:none" target="_blank"><img
-                  src="./media/twitter.png" width="32px" alt="icono de twitter"> @Superfastclean</a>
+              <a href="https://twitter.com/Fastclean" style="text-decoration:none" target="_blank"><img
+                  src="./media/twitter.png" width="32px" alt="icono de twitter"> @Fastclean</a>
             </li>
           </ul>
         </div>
