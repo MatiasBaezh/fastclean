@@ -7,7 +7,7 @@ body {
   background: #f1fbff; }
   body h1, body h2, body h3 {
     text-align: center;
-    padding: 2% 2% 2%;
+    padding: 5% 2% 2%;
     color: #878585; }
   body a:link, body a:visited, body a:hover, body a:active {
     color: #ffffff;
@@ -55,14 +55,14 @@ header .carousel-caption {
   z-index: 2; }
 
 header .carousel-caption h5 {
-  font-size: 240%;
+  font-size: 280%;
   text-transform: uppercase;
   letter-spacing: 1.9px; }
 
 header .carousel-caption p {
   width: 70%;
   margin: auto;
-  font-size: 110%;
+  font-size: 150%;
   line-height: 1.5;
   padding: 1%; }
 
@@ -142,6 +142,15 @@ footer li a:hover {
   font-size: 120%; }
 
 @media screen and (max-width: 980px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f1fbff; }
+    body h1, body h2, body h3 {
+      text-align: center;
+      padding: 7% 2% 2%;
+      color: #878585; }
+    body p {
+      font-size: 80%; }
   .text {
     color: #f47373;
     font-size: 110%;
@@ -164,10 +173,19 @@ footer li a:hover {
       font-size: 85%; } }
 
 @media screen and (max-width: 768px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f1fbff; }
+    body h1, body h2, body h3 {
+      text-align: center;
+      padding: 10% 2% 2%;
+      color: #878585; }
+  header p {
+    font-size: 50%; }
   .carousel-caption {
-    font-size: 90%; }
+    font-size: 70%; }
   .carousel-caption p {
-    font-size: 120%; }
+    font-size: 100%; }
   .card {
     margin-bottom: 4%; }
   .ventajas {
@@ -179,10 +197,17 @@ footer li a:hover {
       font-size: 90%; } }
 
 @media screen and (max-width: 470px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f1fbff; }
+    body h1, body h2, body h3 {
+      text-align: center;
+      padding: 20% 2% 2%;
+      color: #878585; }
   .carousel-caption {
     font-size: 80%; }
   .carousel-caption p {
-    font-size: 120%; }
+    font-size: 100%; }
   .ventajas {
     flex-direction: column;
     border: 2px solid #00ffff;

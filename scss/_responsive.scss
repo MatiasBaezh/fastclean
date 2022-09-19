@@ -2,7 +2,7 @@
 $breakpoints: (
     sm: 980px,
     md: 768px,
-    lg: 480px,
+    lg: 560px,
     xs: 470px
 );
 
@@ -18,7 +18,17 @@ $breakpoints: (
 // Breakpoints para darle responsive al navbar, banner principal y agenda//
 //Ancho 980px/
 @include responsive(sm) {
-
+body {
+    font-family: 'Montserrat', sans-serif;
+	background: #f1fbff;
+    h1,h2,h3{
+        text-align:center ;padding: 7% 2% 2%;
+        color: $gris;
+    }
+    p{
+        font-size: 80%;
+    }
+    }
     //Navbar//
     .text {
         color: #f47373;
@@ -55,17 +65,29 @@ $breakpoints: (
             font-size: 85%;
         }
     }
+
 }
 
 //Ancho 768px//
 @include responsive(md) {
-
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background: #f1fbff;
+        h1,h2,h3{
+            text-align:center ;padding: 10% 2% 2%;
+            color: $gris;
+        }
+      
+        }
+    header p{
+        font-size: 50%;
+    }
     .carousel-caption {
-        font-size: 90%;
+        font-size: 70%;
     }
 
     .carousel-caption p {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     .card {
@@ -85,15 +107,22 @@ $breakpoints: (
 
 }
 
-//Ancho  480px// 
+//Ancho  560px// 
 @include responsive(xs) {
-
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background: #f1fbff;
+        h1,h2,h3{
+            text-align:center ;padding: 20% 2% 2%;
+            color: $gris;
+        }
+        }
     .carousel-caption {
         font-size: 80%;
     }
 
     .carousel-caption p {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     .ventajas {

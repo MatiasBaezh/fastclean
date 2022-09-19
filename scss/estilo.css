@@ -1,0 +1,271 @@
+.menu, .redes, .ventajas {
+  list-style: none;
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f1fbff;
+}
+body h1, body h2, body h3 {
+  text-align: center;
+  padding: 2% 2% 2%;
+  color: #878585;
+}
+body a:link, body a:visited, body a:hover, body a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.fixedbar {
+  padding-bottom: 5%;
+}
+
+header .navbar {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+header .navbar-nav a {
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+header .navbar-light .navbar-brand {
+  color: #f47373;
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+header .navbar-light .navbar-brand:focus, header .navbar-light .navbar-brand:hover {
+  color: #b6a8a8;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: #fc8585;
+}
+header .navbar-light .navbar-nav .nav-link:focus, header .navbar-light .navbar-nav .nav-link:hover {
+  color: #b6a8a8;
+}
+header .w-100 {
+  height: 50vh;
+}
+header .navbar-toggler {
+  padding: 0%;
+  font-size: 100%;
+  background: #fff;
+}
+header .carousel-caption {
+  bottom: 5%;
+  z-index: 2;
+}
+header .carousel-caption h5 {
+  font-size: 240%;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+}
+header .carousel-caption p {
+  width: 70%;
+  margin: auto;
+  font-size: 110%;
+  line-height: 1.5;
+  padding: 1%;
+}
+header .carousel-inner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(134, 125, 125, 0.7019607843);
+  z-index: 1;
+}
+
+.fixedbar {
+  padding-bottom: 5%;
+}
+
+main {
+  font-size: 110%;
+  text-align: justify;
+}
+
+.preguntas, .testimonios {
+  font-size: 90%;
+  text-align: justify;
+  max-width: 80%;
+  padding-left: 20%;
+  padding-bottom: 10%;
+}
+
+Section #servicios .img-area img {
+  width: 100%;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.ventajas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  padding: 5%;
+  font-size: 105%;
+}
+
+.menu img, .redes img, .ventajas img {
+  padding-bottom: 2%;
+}
+
+.redes li a, a:hover, a:before {
+  font-weight: 400;
+  color: #f47373;
+}
+
+.redes a, .redes a:hover, .redes a:before {
+  font-weight: 400;
+  color: #F47373;
+}
+
+form {
+  border-radius: 2%;
+  width: 90%;
+}
+
+.formulario {
+  padding: 0% 15%;
+  text-align: center;
+}
+.formulario .btn {
+  width: 50%;
+}
+
+.redes {
+  margin-left: -40px;
+}
+
+iframe {
+  width: 100%;
+  padding: 0% 5% 0% 5%;
+}
+
+.firma {
+  padding: 3%;
+}
+
+footer li a:hover {
+  background-color: #F9F7F3;
+  color: #f47373;
+  border-radius: 5%;
+  font-size: 120%;
+}
+
+@media screen and (max-width: 980px) {
+  .text {
+    color: #f47373;
+    font-size: 110%;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding: 8px;
+  }
+  .card {
+    margin-bottom: 3%;
+  }
+  .card p {
+    padding: 0%;
+  }
+  .img-area img {
+    width: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .ventajas {
+    border: 2px solid #00ffff;
+    border-radius: 3%;
+  }
+  .ventajas li p {
+    padding-top: 10%;
+    font-size: 85%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    font-size: 90%;
+  }
+  .carousel-caption p {
+    font-size: 120%;
+  }
+  .card {
+    margin-bottom: 4%;
+  }
+  .ventajas {
+    flex-direction: column;
+    border: 2px solid #00ffff;
+    border-radius: 3%;
+  }
+  .ventajas li p {
+    padding: 0% 0% 3%;
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .carousel-caption {
+    font-size: 80%;
+  }
+  .carousel-caption p {
+    font-size: 120%;
+  }
+  .ventajas {
+    flex-direction: column;
+    border: 2px solid #00ffff;
+    border-radius: 3%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .carousel-caption {
+    font-size: 100%;
+  }
+  .carousel-caption p {
+    font-size: 60%;
+  }
+}
+@media screen and (max-height: 740px) {
+  .carousel-caption {
+    font-size: 70%;
+  }
+  .carousel-caption p {
+    font-size: 60%;
+  }
+}
+li {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-right: 300%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 300%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}/*# sourceMappingURL=estilo.css.map */
